@@ -1,18 +1,19 @@
+import java.util.*;
+
 class Solution {
     public String frequencySort(String s) {
-        StringBuilder sb =new StringBuilder();
-        char[] arr= new char[256];
-        for(int i=0;i<s.length();i++){
-            arr[s.charAt(i)]+=1;
+        HashMap<Character,Integer> map=new HashMap<>();
+        for(char c : s.toCharArray()){
+            map.put(c,map.getOrDefault(c,0)+1);
         } 
-        int maxChar=s.length();
-        for(int j=0;j<s.length();j++){
-            for(int i=0;i<arr.length;i++){
-                if(arr[i]==maxChar) sb.append(String.valueOf((char)i).repeat(maxChar));
-            }
-            maxChar--;
+        ArrayList<Character> chars=new ArrayList<>(map.keySet());
+        chars.sort((a, b) -> map.get(b) - map.get(a));
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : chars) {
+            sb.append(String.valueOf(c).repeat(map.get(c)));
         }
-        System.out.print(sb.toString());
+
         return sb.toString();
     }
 }
