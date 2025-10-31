@@ -7,7 +7,6 @@ class Solution {
                 str.add(s.substring(i,j+1));
             }
         }
-        System.out.print(str);
         for(int i=0 ; i<str.size() ;i++){
             int[] freq=new int[26];
             for(char ch : str.get(i).toCharArray()) freq[ch-'a']+=1;
