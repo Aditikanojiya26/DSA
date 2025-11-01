@@ -1,35 +1,33 @@
 class Solution {
     public int myAtoi(String s) {
-       s = s.trim();
+        if (s == null) return 0;
+
+        s = s.trim();              
         if (s.isEmpty()) return 0;
 
-        StringBuilder sb = new StringBuilder();
+        int sign = 1;
+        int i = 0;
+        long num = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-
-            if (i > 0 && !Character.isDigit(c)) break;
-            else if (i == 0 && c == '-') sb.append(c);      
-            else if (i == 0 && c == '+') continue;         
-            else if (i == 0 && !Character.isDigit(c)) return 0;
-            else if (c == '0' && (sb.length() == 0 || sb.toString().equals("-"))) continue; 
-            else if (Character.isDigit(c)) sb.append(c);
-            else break;
+        if (s.charAt(i) == '-') {
+            sign = -1;
+            i++;
+        } else if (s.charAt(i) == '+') {
+            i++;
         }
-
-       if (sb.length() == 0 || sb.toString().equals("-")) return 0;
 
        
-        long num = 0;
-        try {
-            num = Long.parseLong(sb.toString());
-        } catch (NumberFormatException e) {
-            // handle overflow cases directly
-            return sb.charAt(0) == '-' ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-        }
-        if (num < Integer.MIN_VALUE) return Integer.MIN_VALUE;
-        if (num > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        while (i < s.length() && Character.isDigit(s.charAt(i))) {
+            int digit = s.charAt(i) - '0';
+            num = num * 10 + digit;
 
-        return (int) num;   
+            if (sign * num <= Integer.MIN_VALUE) return Integer.MIN_VALUE;
+            if (sign * num >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
+
+            i++;
+        }
+
+       
+        return (int)(sign * num);
     }
 }
