@@ -1,35 +1,20 @@
 class Solution {
-    public static List<List<Integer>> pascalTriangle(List<List<Integer>> list, int n) {
-        
-        if (n == 0) {
-            list.add(Arrays.asList(1));
-            return list;
-        }
-
-        
-        pascalTriangle(list, n - 1);
-
-        List<Integer> prev = list.get(list.size() - 1);
-        List<Integer> curr = new ArrayList<>();
-
-        
-        curr.add(1);
-
-        
-        for (int i = 0; i < prev.size() - 1; i++) {
-            curr.add(prev.get(i) + prev.get(i + 1));
-        }
-
-        
-        curr.add(1);
-
-        
-        list.add(curr);
-
-        return list;
-    }
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> result = pascalTriangle(new ArrayList<>(), numRows - 1);
+        List<List<Integer>> result = new ArrayList<>();
+        int[][] temp = new int[numRows][numRows];
+        for (int i = 0; i < numRows; i++) {
+            result.add(new ArrayList<>());
+        }
+        result.get(0).add(1);
+        for (int i = 1; i < numRows; i++) {
+            for (int j = 0; j <= i; j++) {
+                if(j == 0 || (i == j)){
+                    result.get(i).add(1);
+                }else{
+                    result.get(i).add(result.get(i - 1).get(j - 1) + result.get(i - 1).get(j));
+                }            
+            }
+        }
         return result;
     }
 }
