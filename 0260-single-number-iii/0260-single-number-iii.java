@@ -1,17 +1,20 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        Arrays.sort(nums);
-        List<Integer> list = new ArrayList<>();
-        int n = nums.length;
-        for (int i = 0; i < n; ) {
-            if (i == n - 1 || nums[i] != nums[i + 1]) {
-                list.add(nums[i]);
-                i++;
-            } else {
-                
-                i += 2;
+        long XOR = 0;
+        for(int i=0; i < nums.length; i++) {
+            XOR = XOR ^ nums[i];
+        }
+        int rightmost = (int)(XOR & (XOR - 1)) ^ (int)XOR;
+        int XOR1 = 0, XOR2 = 0;
+        for(int i=0; i < n; i++) {
+            if((nums[i] & rightmost) != 0) {
+                XOR1 = XOR1 ^ nums[i];
+            }
+            else {
+                XOR2 = XOR2 ^ nums[i];
             }
         }
-        return new int[]{list.get(0), list.get(1)};
+        if(XOR1 < XOR2) return new int[]{XOR1, XOR2};
+        return new int[]{XOR2, XOR1};
     }
 }
