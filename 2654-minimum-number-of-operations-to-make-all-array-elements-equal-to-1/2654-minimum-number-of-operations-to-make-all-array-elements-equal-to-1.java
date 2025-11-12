@@ -17,7 +17,7 @@ class Solution {
         int smSbLn=Integer.MAX_VALUE;
         for(int i =0 ; i < n-1 ; i++){
             int value=nums[i];
-            for ( int j = i ; j < n ; j++){
+            for ( int j = i+1 ; j < n ; j++){
                 value=gcd(value,nums[j]);
                 if (value == 1 ) {
                     smSbLn = Math.min(smSbLn, (j - i + 1)); 
