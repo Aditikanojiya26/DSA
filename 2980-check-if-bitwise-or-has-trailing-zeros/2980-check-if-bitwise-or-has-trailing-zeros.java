@@ -3,9 +3,7 @@ class Solution {
         int n = nums.length;
         int count=0;
         for ( int i : nums ){
-            if( ( i & 1) != 1 ){
-                count++;
-            }
+            if( i % 2 == 0 ) count++;
             if(count == 2) return true;
         }
         return false;
