@@ -8,7 +8,6 @@ class Solution {
         for ( int i = 1 ; i < intervals.length ; i++){
            int curopen = intervals[i][0];
            int curclose = intervals[i][1];
-           int c = intervals[i][1];
            if(curopen <= open && curclose >= close){
                 open = intervals[i][0];
                 close = intervals[i][1];
