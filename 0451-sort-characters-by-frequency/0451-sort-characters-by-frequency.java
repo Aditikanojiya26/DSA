@@ -17,7 +17,9 @@ class Solution {
         // chars.sort((a, b) -> freq[b] - freq[a]);
         StringBuilder sb = new StringBuilder();
         for (char c : chars) {
-            sb.append(String.valueOf(c).repeat(freq[c]));
+            for (int i = 0; i < freq[c]; i++) {
+    sb.append(c);
+}
         }
 
         return sb.toString();
