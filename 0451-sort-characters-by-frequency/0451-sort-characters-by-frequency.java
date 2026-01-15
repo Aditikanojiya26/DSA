@@ -13,7 +13,8 @@ class Solution {
                 chars.add((char) i);
             }
         }
-        chars.sort((a, b) -> freq[b] - freq[a]);
+        Collections.sort(chars,(a, b) -> freq[b] - freq[a]);
+        // chars.sort((a, b) -> freq[b] - freq[a]);
         StringBuilder sb = new StringBuilder();
         for (char c : chars) {
             sb.append(String.valueOf(c).repeat(freq[c]));
