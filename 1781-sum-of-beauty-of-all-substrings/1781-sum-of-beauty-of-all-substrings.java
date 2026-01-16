@@ -14,8 +14,7 @@ class Solution {
                         min = Math.min(min, arr[k]);
                     }
                 }
-                int beauty = max - min ;
-                if(beauty > 0) sum+=beauty;
+                 sum += (max - min);
             }
         }
         return sum;
