@@ -10,8 +10,8 @@ class Solution {
                 int max = 0;
                 for(int k= 0 ; k < 26 ; k++){
                     if(arr[k]>0){
-                        if(arr[k] > max) max = arr[k];
-                        if(arr[k]< min) min = arr[k];
+                        max = Math.max(max, arr[k]);
+                        min = Math.min(min, arr[k]);
                     }
                 }
                 int beauty = max - min ;
