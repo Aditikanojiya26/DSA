@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Aditikanojiya26/DSA/tree/master/0029-divide-two-integers) |
 | [0070-climbing-stairs](https://github.com/Aditikanojiya26/DSA/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
 |  |
@@ -78,4 +79,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Aditikanojiya26/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0029-divide-two-integers](https://github.com/Aditikanojiya26/DSA/tree/master/0029-divide-two-integers) |
 <!---LeetCode Topics End-->
