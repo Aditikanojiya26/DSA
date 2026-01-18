@@ -83,5 +83,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Aditikanojiya26/DSA/tree/master/0029-divide-two-integers) |
+| [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Aditikanojiya26/DSA/tree/master/1318-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Aditikanojiya26/DSA/tree/master/2220-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
