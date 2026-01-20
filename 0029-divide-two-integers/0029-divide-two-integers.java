@@ -7,13 +7,10 @@ class Solution {
             return Integer.MIN_VALUE;
         }
         int count = 0;
-        boolean flag = true;
-        
-        if( divisor < 0 &&  dividend < 0) flag = true;
-        else if (divisor < 0 ||  dividend < 0)flag=false;
-        // if( divisor < 0) divisor = -(divisor);
-        // if( dividend < 0) dividend = -(dividend);
-        long a = Math.abs((long) dividend);
+        boolean flag1 = divisor < 0;
+        boolean flag2 = dividend < 0;
+
+        long a = Math.abs((long) dividend); //(long) dividend because prblm of −23^1
         long b = Math.abs((long) divisor);
 
         while(a >= b){
@@ -22,6 +19,6 @@ class Solution {
             count+=pow;
             a -= b*pow;
         }
-        return flag ? count : -count ;
+        return flag1 == flag2 ? count : -count ;
     }
 }
