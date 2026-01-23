@@ -1,27 +1,34 @@
 class Solution {
-    public int divisors(int n) {
-        int[] temp = new int[n]; 
-        int count = 0; 
-        int sqrtN = (int) Math.sqrt(n); 
-        for(int i = 1; i <= sqrtN; i++) {
-            if(n % i == 0) {
-                temp[count++] = i;
-                if(i != n / i) {
-                    temp[count++] = n / i;
+
+    private int divisorsSum(int n) {
+        int count = 0;
+        int sum = 0;
+        int sqrt = (int) Math.sqrt(n);
+
+        for (int i = 1; i <= sqrt; i++) {
+            if (n % i == 0) {
+                int d1 = i;
+                int d2 = n / i;
+
+                count++;
+                sum += d1;
+
+                if (d1 != d2) {
+                    count++;
+                    sum += d2;
                 }
+
+                if (count > 4) return 0;
             }
         }
-        int sum = 0;
-        if(count == 4){
-            for(int i = 0 ; i < count ; i++) sum+=temp[i];
-        }
-        return sum;
+        return count == 4 ? sum : 0;
     }
+
     public int sumFourDivisors(int[] nums) {
-        int sum = 0;
-        for(int  i = 0 ; i < nums.length ; i++){
-            sum += divisors(nums[i]);
+        int ans = 0;
+        for (int x : nums) {
+            ans += divisorsSum(x);
         }
-        return sum;
+        return ans;
     }
 }
