@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/Aditikanojiya26/DSA/tree/master/0029-divide-two-integers) |
 | [0070-climbing-stairs](https://github.com/Aditikanojiya26/DSA/tree/master/0070-climbing-stairs) |
+| [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Aditikanojiya26/DSA/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
+| [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Hash Table
 |  |
