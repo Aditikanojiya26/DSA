@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
 | [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Hash Table
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Aditikanojiya26/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Bit Manipulation
 |  |
@@ -94,4 +96,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
