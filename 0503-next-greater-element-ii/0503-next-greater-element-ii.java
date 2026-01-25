@@ -8,7 +8,7 @@ class Solution {
 
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = 0; i < 2 * n; i++) {
+        for (int i = 0; i < 2 * n-1; i++) {
             int curr = nums[i % n];
 
             while (!stack.isEmpty() && nums[stack.peek()] < curr) {
