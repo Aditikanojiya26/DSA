@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
 | [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
+| [2395-find-subarrays-with-equal-sum](https://github.com/Aditikanojiya26/DSA/tree/master/2395-find-subarrays-with-equal-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Aditikanojiya26/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2395-find-subarrays-with-equal-sum](https://github.com/Aditikanojiya26/DSA/tree/master/2395-find-subarrays-with-equal-sum) |
 ## String
 |  |
 | ------- |
