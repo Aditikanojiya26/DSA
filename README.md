@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/Aditikanojiya26/DSA/tree/master/0029-divide-two-integers) |
 | [0070-climbing-stairs](https://github.com/Aditikanojiya26/DSA/tree/master/0070-climbing-stairs) |
+| [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
 | [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 ## Dynamic Programming
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Aditikanojiya26/DSA/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
+| [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Aditikanojiya26/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -121,4 +123,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1280-students-and-examinations](https://github.com/Aditikanojiya26/DSA/tree/master/1280-students-and-examinations) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Aditikanojiya26/DSA/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Aditikanojiya26/DSA/tree/master/1757-recyclable-and-low-fat-products) |
+## Two Pointers
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
