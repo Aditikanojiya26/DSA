@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2395-find-subarrays-with-equal-sum](https://github.com/Aditikanojiya26/DSA/tree/master/2395-find-subarrays-with-equal-sum) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Aditikanojiya26/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2395-find-subarrays-with-equal-sum](https://github.com/Aditikanojiya26/DSA/tree/master/2395-find-subarrays-with-equal-sum) |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
 | [0387-first-unique-character-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Aditikanojiya26/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Aditikanojiya26/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Sorting
