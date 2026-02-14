@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Aditikanojiya26/DSA/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Aditikanojiya26/DSA/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0503-next-greater-element-ii) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Aditikanojiya26/DSA/tree/master/0049-group-anagrams) |
 | [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Aditikanojiya26/DSA/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Aditikanojiya26/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/0451-sort-characters-by-frequency) |
@@ -130,4 +132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
+## Sliding Window
+|  |
+| ------- |
+| [0219-contains-duplicate-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0219-contains-duplicate-ii) |
 <!---LeetCode Topics End-->
