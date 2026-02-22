@@ -9,20 +9,35 @@
  *     }
  * }
  */
+//  approch 1
+// ArrayList<ListNode> set = new ArrayList<>();
 
+//         while(head != null){
+//             if(set.contains(head)){
+//                 return true;
+//             }
+//             set.add(head);
+//             head = head.next;
+//         }
+
+//         return false;
 
 public class Solution {
     public boolean hasCycle(ListNode head) {
-        ArrayList<ListNode> set = new ArrayList<>();
+    if(head == null) return false;
 
-        while(head != null){
-            if(set.contains(head)){
-                return true;
-            }
-            set.add(head);
-            head = head.next;
+    ListNode slow = head;
+    ListNode fast = head;
+
+    while(fast != null && fast.next != null){
+        slow = slow.next;
+        fast = fast.next.next;
+
+        if(slow == fast){
+            return true;
         }
-
-        return false;
     }
+
+    return false;
+}
 }
