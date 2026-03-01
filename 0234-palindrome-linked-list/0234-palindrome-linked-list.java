@@ -1,29 +1,54 @@
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        ArrayList<Integer> arr = new ArrayList<>();
+        // ArrayList<Integer> arr = new ArrayList<>();
+        // ListNode slow = head;
+        // ListNode fast = head;
+
+        // // Step 1: Store first half
+        // while(fast != null && fast.next != null){
+        //     arr.add(slow.val);
+        //     slow = slow.next;
+        //     fast = fast.next.next;
+        // }
+
+        // // Step 2: Skip middle if odd length
+        // if(fast != null){
+        //     slow = slow.next;
+        // }
+
+        // // Step 3: Compare second half
+        // for(int i = arr.size()-1; i >= 0; i--){
+        //     if(slow.val != arr.get(i)){
+        //         return false;
+        //     }
+        //     slow = slow.next;  
+        // }
+
+        // return true;
         ListNode slow = head;
         ListNode fast = head;
 
         // Step 1: Store first half
         while(fast != null && fast.next != null){
-            arr.add(slow.val);
+            
             slow = slow.next;
             fast = fast.next.next;
         }
-
-        // Step 2: Skip middle if odd length
-        if(fast != null){
-            slow = slow.next;
+        ListNode prev = null;
+        ListNode current = slow;
+        while(current!=null){
+            ListNode next = current.next;
+            current.next = prev;
+            prev=current;
+            current=next;
         }
-
-        // Step 3: Compare second half
-        for(int i = arr.size()-1; i >= 0; i--){
-            if(slow.val != arr.get(i)){
-                return false;
-            }
-            slow = slow.next;  
+        ListNode left =head;
+        ListNode right = prev;
+        while(right!=null){
+            if(left.val!=right.val) return false;
+            left=left.next;
+            right=right.next;
         }
-
         return true;
     }
 }
