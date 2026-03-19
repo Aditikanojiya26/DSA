@@ -1,10 +1,13 @@
 class Solution(object):
-    def findMaxAverage(self, arr, k):
-        window_sum = sum(arr[:k])
-        max_avg = window_sum / float(k)
+    def findMaxAverage(self, nums, k):
+        curSum = sum(nums[:k])
 
-        for i in range(k, len(arr)):
-            window_sum = window_sum - arr[i - k] + arr[i]
-            max_avg = max(max_avg, window_sum / float(k))
+        maxSum = curSum
+        
+        for i in range(k, len(nums)):
+            curSum += nums[i] - nums[i-k]
 
-        return max_avg
+            if curSum > maxSum:
+                maxSum = curSum
+
+        return maxSum / float(k)
