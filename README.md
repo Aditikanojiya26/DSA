@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Aditikanojiya26/DSA/tree/master/0496-next-greater-element-i) |
+| [0567-permutation-in-string](https://github.com/Aditikanojiya26/DSA/tree/master/0567-permutation-in-string) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0771-jewels-and-stones](https://github.com/Aditikanojiya26/DSA/tree/master/0771-jewels-and-stones) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0567-permutation-in-string](https://github.com/Aditikanojiya26/DSA/tree/master/0567-permutation-in-string) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0771-jewels-and-stones](https://github.com/Aditikanojiya26/DSA/tree/master/0771-jewels-and-stones) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Aditikanojiya26/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -176,12 +178,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/Aditikanojiya26/DSA/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Aditikanojiya26/DSA/tree/master/0234-palindrome-linked-list) |
+| [0567-permutation-in-string](https://github.com/Aditikanojiya26/DSA/tree/master/0567-permutation-in-string) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Aditikanojiya26/DSA/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Sliding Window
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Aditikanojiya26/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/Aditikanojiya26/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Aditikanojiya26/DSA/tree/master/0643-maximum-average-subarray-i) |
 ## Greedy
 |  |
