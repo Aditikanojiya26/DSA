@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0599-minimum-index-sum-of-two-lists](https://github.com/Aditikanojiya26/DSA/tree/master/0599-minimum-index-sum-of-two-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/Aditikanojiya26/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1390-four-divisors](https://github.com/Aditikanojiya26/DSA/tree/master/1390-four-divisors) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Aditikanojiya26/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Aditikanojiya26/DSA/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2395-find-subarrays-with-equal-sum](https://github.com/Aditikanojiya26/DSA/tree/master/2395-find-subarrays-with-equal-sum) |
 ## Hash Table
@@ -187,8 +188,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Aditikanojiya26/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Aditikanojiya26/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Aditikanojiya26/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Aditikanojiya26/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aditikanojiya26/DSA/tree/master/0011-container-with-most-water) |
+## Prefix Sum
+|  |
+| ------- |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Aditikanojiya26/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
